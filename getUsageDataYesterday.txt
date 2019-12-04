@@ -12,10 +12,10 @@ Import-AzureRmContext -Path "c:\Users\sran\Documents\Azure_PowerShell_Scripts\cr
 
 # Connect to DB
 $database = 'costanalysis'
-$server = 'azure-sub-mgmt.database.windows.net'
+$server = 'SERVER'
 $table = 'dbo.rawData'
 $user = 'azuresub'
-$pwd = 'oGa#JwxUAPlBR0Sg'
+$pwd = 'PASSWORD'
 
 # Get all Azure subscriptions
 $subscriptions = Get-AzureRmSubscription
